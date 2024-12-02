@@ -12,7 +12,7 @@ app = Flask(__name__)
 
 INPUT_FILE = "metric.json"
 OUTPUT_FILE = "metrics.prom"
-BASH_SCRIPT = "namespace.sh" 
+BASH_SCRIPT = "namespace" 
 UPDATE_INTERVAL = 15
 
 def run_bash_script(script_path):
